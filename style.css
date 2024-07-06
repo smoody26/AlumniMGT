@@ -155,7 +155,7 @@ body{
     flex-grow: 1;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: left;
 }
 .search label{
     display: flex;
@@ -228,6 +228,7 @@ body{
     padding: 20px;
     flex-wrap: wrap;
     margin-top: 50px;
+    padding-right: 450px;
 }
 
 .card {
@@ -267,10 +268,10 @@ body{
     border-radius:15px;
 }
 .recentGraduates .card{
-    width:500px;
+    width:100%;
 }
 .recentGraduates {
-    width: calc(100%-50px);/* Make this card wider */
+    width: calc(100%-25px);/* Make this card wider */
     margin:auto;
     padding: 30px; 
 }
